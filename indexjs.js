@@ -49,6 +49,11 @@ const products = [
     },
     {
         name: "Фотозона",
+        image: "blue1",
+        price: "от 10 000"
+    },
+    {
+        name: "Фотозона",
         image: "blue2",
         price: "от 10 000"
     },
