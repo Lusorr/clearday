@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("reset.css");
+@import url("header.css");
+@import url("contact-btn.css");
+@import url("main-screen.css");
+@import url("catalog.css");
+@import url("about.css");
+@import url("cards-cont.css");
+@import url("media.css");
+@import url("develop.css");
+
+:root{
+    --main-bg-color: rgb(241, 238, 235);
+    --color-accent: #d13636;
+    --color-primary: #b1a7a2;
+    --main-text-color: rgb(0, 0, 0);
+    --text-color-bright: rgb(223, 211, 211);
+    --font-size-h1: 3.5rem;
+    --font-size-h1-mini: 3rem;
+    --font-size-h2: 2rem;
+    --font-size-h2-mini: 1.5rem;
+    --font-size-h3: 1.2rem;
+    --font-size-h3-mini: 1rem;
+    --font-size-h4: 0.8rem;
+}
+body{
+    background-color: var(--main-bg-color);
+    font-family: Roboto;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.text--upper{
+    text-transform: uppercase;
+}
+.text__title{
+    font-size: var(--font-size-h1);
+    font-weight: 500;
+    padding-top: 12%;
+    font-weight: bold;
+}
+span{
+    color: var(--color-accent);
+    text-decoration: underline;
+}

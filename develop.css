@@ -1,0 +1,19 @@
+.develop{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.develop-wrapper{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+.develop__part{
+    width: 45%;
+}
+.develop-payment__text{
+    display: flex;
+    justify-content: space-between;
+}
+.develop-payment__part{
+    width: 45%;
+}

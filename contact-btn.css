@@ -1,0 +1,24 @@
+.contact-btn{
+    background-color: var(--color-accent);
+    width: 180px;
+    height: 50px;
+    border-radius: 15px;
+    transition: background-color 0.2s linear;  
+}
+.contact-btn:hover{
+    background-color: var(--color-primary);
+}
+.contact-btn__text{
+    color: var(--text-color-bright);
+    font-weight: bold;
+    font-size: var(--font-size-h4);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-btn--center{
+    display: flex;
+    justify-content: center;
+}

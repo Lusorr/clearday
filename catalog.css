@@ -1,0 +1,10 @@
+.catalog{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.catalog__text{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-size: var(--font-size-h3);
+    line-height: 2rem;
+}

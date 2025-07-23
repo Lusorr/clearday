@@ -1,0 +1,65 @@
+header{
+    position: fixed;
+    width: 90%;
+    background-color: var(--main-bg-color);
+}
+.header{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    height: 80px;
+    font-weight: bold;
+    
+}
+.header__logo{
+    font-size: var(--font-size-h2);
+    text-wrap: nowrap;
+}
+.header-part{
+    display: flex;
+    justify-content: space-between;
+}
+.header-part--up{
+    padding-bottom: 15px;
+}
+.header-info{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.nav-menu{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.header-info__block{
+    text-wrap: nowrap;
+    margin-right: 15px;
+}
+.burger{
+    width: 30px;
+    height: 20px;
+    display: none;
+}
+.burger-btn{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.burger-line{
+    background-color: var(--color-accent);
+    width: 30px;
+    height: 3px;
+}
+.burger-menu{
+    display: none;
+}
+.burger-menu--down{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}

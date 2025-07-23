@@ -1,0 +1,9 @@
+.about{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.about__text{
+    padding-top: 5%;
+    font-size: var(--font-size-h3);
+    line-height: 2rem;
+}

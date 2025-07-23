@@ -1,0 +1,14 @@
+.main-screen{
+    text-align: center;
+}
+.main-screen__title{
+    font-size: var(--font-size-h1);
+    padding-top: 12%;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.main-screen__text{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    font-size: var(--font-size-h2);
+}
