@@ -6,8 +6,9 @@
 @import url("catalog.css");
 @import url("about.css");
 @import url("cards-cont.css");
-@import url("media.css");
 @import url("develop.css");
+
+@import url("media.css");
 
 :root{
     --main-bg-color: rgb(241, 238, 235);
