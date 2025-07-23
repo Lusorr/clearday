@@ -23,7 +23,7 @@ function RenderProducts(){
     products.forEach(product => {
         const productHTML = `
         <div class="card">
-                <div class="card__image"><img src="/images/${product.image}.jpg" alt=""></div>
+                <div class="card__image"><img src="${product.image}.jpg" alt=""></div>
                 <div class="card__desc">
                     <div class="card__desc-title">${product.name}</div>
                     <div class="card__desc-price">${product.price} р.</div>
